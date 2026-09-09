@@ -5,19 +5,19 @@
 
 ## 基础组件（Button / Badge / Input / Textarea / Tabs / Alert / Progress / Dialog / Drawer 等）
 
-- **来源：`ShadCN-Default` 库**（Kira 默认，开项目时确认），清单与能力边界见 `components.md`。
+- **来源：`ShadCN-Default` 库**（已确认沿用 Kira 默认，2026-09-09），清单与能力边界见 `components.md`。
 - 禁止自建与该库重复的基础组件；组件能力有限时按「最近似变体」使用，或经用户确认后局部自绘并在日志记录缺口。
 - 旧库 / 标注待归档的库（如 `Kira Custom Components (TO BE ARCHIVED)`）不得用于新稿，只作现状参照。
 
 ## 颜色 / 圆角 / 间距 / 阴影 / 渐变 / 文本样式
 
-- **来源：`Design System 2.0 Foundations` 库**（Kira 默认，开项目时确认）：semantic 变量（`text/*`、`surface/*`、`fill/*`、`border/*`、`icon/*`）、`spacing`、`radius`、`shadow/*` effect styles、`gradient/AI/*` paint styles、`text/{scale}/{weight}` text styles。
+- **来源：`Design System 2.0 Foundations` 库**（已确认沿用 Kira 默认，2026-09-09）：semantic 变量（`text/*`、`surface/*`、`fill/*`、`border/*`、`icon/*`）、`spacing`、`radius`、`shadow/*` effect styles、`gradient/AI/*` paint styles、`text/{scale}/{weight}` text styles。
 - 库实际值与 `design.md` 有出入时，以库为准并在 `design.md` 记录出入。
 - **新建容器不留默认白**：frame / auto layout 创建后自带的 `#FFFFFF` 填充必须当场处理——纯布局容器清空填充，背景容器绑 `surface/*` 等 semantic token；未绑定的默认白为走查必改项。
 
 ## 图标
 
-- **来源：`Design System 2.0 Icons` 库（Phosphor）**（Kira 默认，开项目时确认），业务图标映射严格按 `icons.md`。
+- **来源：`Design System 2.0 Icons` 库（Phosphor）**（已确认沿用 Kira 默认，2026-09-09），业务图标映射严格按 `icons.md`。
 - 基础组件内置的 icon swap 槽位应 swap 为 Phosphor 图标组件，不用组件库自带的其他 icon pack。
 - **图标必须是 SVG 组件实例**：禁止在文本节点里用键盘字符（→、×、✓、•、⋮ 等）手打冒充图标；走查发现即为必改项。
 
@@ -34,4 +34,5 @@
 
 ## 修改记录
 
+- 2026-09-09 用户确认三库口径沿用 Kira 默认（组件 `ShadCN-Default` / token `Design System 2.0 Foundations` / 图标 `Design System 2.0 Icons`），见 `决策日志.md`。
 - 2026-09-09 由 `project-scaffold` 脚手架创建（模板版，三库口径为 Kira 默认，待项目确认）。

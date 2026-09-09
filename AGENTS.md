@@ -4,8 +4,9 @@
 
 ## 1. 项目范围
 
-- 一句话范围：Survey 相关的全部设计工作（待填：补一句准确的产品范围，如「问卷的创建、投放、作答与结果查看」）。
-- Linear ticket：待填（链接）。
+- 一句话范围：Kira Learning 的 Survey（问卷）产品设计；当前迭代聚焦 ES 干系人反馈的六项增强——个性化 intro 页说明、章节间说明文案、结果导出、矩阵题型、跳题逻辑（branching / skip logic）、开放题词云。产品方案与优先级待 PM 给出（工单原话：product approaches and prioritization to follow）。
+- Linear ticket：[APAC-5976 · [ES stakeholder feedback] intro/section copy, export, matrix, branching, word cloud](https://linear.app/kira-learning/issue/APAC-5976/es-stakeholder-feedback-introsection-copy-export-matrix-branching-word)（Team APAC · 项目 Survey Feedback & Iteration · 负责人 Xiaoyue）。
+- PRD：暂无正式 PRD，六项需求的原始来源与锚点见 `需求文档/00_PRD溯源.md`。
 
 ## 2. 任务路由表
 
