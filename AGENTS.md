@@ -4,9 +4,19 @@
 
 ## 1. 项目范围
 
+### 产品背景（Survey 1.0，已上线）
+
 - 一句话范围：Survey 是 Kira 的课程问卷功能——教师在课程中快速创建问卷（可从 prompt / starter / 模板 / 空白开始，Kira AI 补问缺失信息并生成可审阅草稿）、指派给班级或个别学生；学生以匿名或实名模式作答（允许跳题提交）；教师在 Results 页用 AI Summary 读整体模式，并以 Instructor Response 回应学生；关键反馈转成非评估数据供 Student Atlas 使用。（来源：Linear 项目描述，2026-09-09 读取）
 - Linear 项目：[Survey 1.0](https://linear.app/kira-learning/project/survey-10-bd3fef51c0f7/overview)（initiative Survey · lead Xiaoyue · 设计团队 APAC - Design · 状态 In Progress，起止 2026-06-23 → 2026-09-07；七个里程碑中 Product / Design / Design Review / Implementation / Release 已 100%，Testing 99%、Design QA & Polish 98%）。
-- PRD：[Survey Prototype & PRD](https://www.notion.so/kira-learning/PRD-Survey-35770a1b99248014a787c4111ada90bc)（Notion，来自 Linear 项目资源）；其余配套文档与锚点表见 `需求文档/00_PRD溯源.md`。
+- 1.0 PRD：[Survey Prototype & PRD](https://www.notion.so/kira-learning/PRD-Survey-35770a1b99248014a787c4111ada90bc)（Notion，来自 Linear 项目资源）。新功能的 PRD 引用 1.0 PRD 章节（如 Overview §7.6）时，到这里查。
+
+### 当前迭代：结果导出（Results Data Export）
+
+- Linear 工单：[APAC-5977 · [Export] Results Data Export](https://linear.app/kira-learning/issue/APAC-5977/export-results-data-export)（项目 Survey Feedback & Iteration · 里程碑 Product Roadmap · 优先级 High · 状态 In Progress · 负责人 Xiaoyue · 父工单 APAC-5976「ES stakeholder feedback」六项之一）。
+- PRD：[[PRD] Survey Results Data Export](https://app.notion.com/p/kira-learning/PRD-Survey-Results-Data-Export-3d670a1b99248173bfb9d24e957a3b66)（Notion，隶属「[PRD] Survey Feedback Iteration September」；2026-09-09 经 Notion MCP 读取，锚点 EXP-01～EXP-23 见 `需求文档/00_PRD溯源.md`，已确认规则见 `需求文档/01_产品规则.md`）。
+- 一句话需求：教师（仅 assignment 创建者）在单个 assignment 的 Results 页 header 点 `Export`，直接下载一个 XLSX；Anonymous / Identified 两种模式导出内容不同，匿名模式绝不泄露身份。
+- 设计涉及面：Results 页 header 的 `Export` 入口，以及它的 默认 / 禁用（零应答，hover 提示）/ 导出中 / 失败（行内错误 + 重试）四个状态；非创建者视图不显示该入口。文件内部结构（sheet / 列）是工程规格，不出 Figma 稿。
+- PM 约定（工单评论，Xiaoyue）：有问题先留 question doc。本地先记 `需求文档/待确认问题清单.md`，question doc 位置待填。
 
 ## 2. 任务路由表
 
