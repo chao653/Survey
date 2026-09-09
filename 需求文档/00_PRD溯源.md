@@ -31,7 +31,6 @@
 ### 来源
 
 - Linear 工单：[APAC-5977 · [Export] Results Data Export](https://linear.app/kira-learning/issue/APAC-5977/export-results-data-export)（项目 Survey Feedback & Iteration · 优先级 High · 状态 In Progress · 负责人 Xiaoyue）。
-- 父工单：APAC-5976「[ES stakeholder feedback] intro/section copy, export, matrix, branching, word cloud」——ES 干系人反馈六项增强中的第 3 项「Data export」。
 - PRD：[[PRD] Survey Results Data Export](https://app.notion.com/p/kira-learning/PRD-Survey-Results-Data-Export-3d670a1b99248173bfb9d24e957a3b66)（Notion）。
   - 所属：Product Requirement Documents / PRDs / [PRD] Survey Feedback Iteration September（父页面）。
   - 依赖：Survey 1.0 Overview §7.1、§7.6、§7.8、§7.10；Teacher View §8。

@@ -33,7 +33,7 @@ alwaysApply: true
 
 - 产品全貌：Survey 从创建（prompt / starter / 模板 / 空白 + AI 草稿）→ 审阅与指派（班级 / 个别学生）→ 学生作答（匿名 / 实名，允许跳题提交）→ Results（AI Summary + Instructor Response）→ 反馈转非评估数据给 Student Atlas。
 - 当前迭代做什么：结果导出（APAC-5977）——Results 页 header 的 `Export` 入口及其四个状态（默认 / 禁用 / 导出中 / 失败），非创建者视图无入口。
-- 当前迭代不做什么：Survey Detail 页的导出；格式选择器；跨 assignment 合并导出；XLSX 内部 sheet / 列的视觉设计（工程规格，见 `需求文档/00_PRD溯源.md` EXP-12～EXP-17）。父工单其余五项（个性化 intro、章节间文案、矩阵题、跳题逻辑、词云）不在本迭代。
+- 当前迭代不做什么：Survey Detail 页的导出；格式选择器；跨 assignment 合并导出；XLSX 内部 sheet / 列的视觉设计（工程规格，见 `需求文档/00_PRD溯源.md` EXP-12～EXP-17）。
 
 ## 测试站与视口
 

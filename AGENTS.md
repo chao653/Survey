@@ -12,7 +12,7 @@
 
 ### 当前迭代：结果导出（Results Data Export）
 
-- Linear 工单：[APAC-5977 · [Export] Results Data Export](https://linear.app/kira-learning/issue/APAC-5977/export-results-data-export)（项目 Survey Feedback & Iteration · 里程碑 Product Roadmap · 优先级 High · 状态 In Progress · 负责人 Xiaoyue · 父工单 APAC-5976「ES stakeholder feedback」六项之一）。
+- Linear 工单：[APAC-5977 · [Export] Results Data Export](https://linear.app/kira-learning/issue/APAC-5977/export-results-data-export)（项目 Survey Feedback & Iteration · 里程碑 Product Roadmap · 优先级 High · 状态 In Progress · 负责人 Xiaoyue）。
 - PRD：[[PRD] Survey Results Data Export](https://app.notion.com/p/kira-learning/PRD-Survey-Results-Data-Export-3d670a1b99248173bfb9d24e957a3b66)（Notion，隶属「[PRD] Survey Feedback Iteration September」；2026-09-09 经 Notion MCP 读取，锚点 EXP-01～EXP-23 见 `需求文档/00_PRD溯源.md`，已确认规则见 `需求文档/01_产品规则.md`）。
 - 一句话需求：教师（仅 assignment 创建者）在单个 assignment 的 Results 页 header 点 `Export`，直接下载一个 XLSX；Anonymous / Identified 两种模式导出内容不同，匿名模式绝不泄露身份。
 - 设计涉及面：Results 页 header 的 `Export` 入口，以及它的 默认 / 禁用（零应答，hover 提示）/ 导出中 / 失败（行内错误 + 重试）四个状态；非创建者视图不显示该入口。文件内部结构（sheet / 列）是工程规格，不出 Figma 稿。
