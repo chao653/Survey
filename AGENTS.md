@@ -4,8 +4,9 @@
 
 ## 1. 项目范围
 
-- 一句话范围：Survey 相关的全部设计工作（待填：补一句准确的产品范围，如「问卷的创建、投放、作答与结果查看」）。
-- Linear ticket：待填（链接）。
+- 一句话范围：Survey 是 Kira 的课程问卷功能——教师在课程中快速创建问卷（可从 prompt / starter / 模板 / 空白开始，Kira AI 补问缺失信息并生成可审阅草稿）、指派给班级或个别学生；学生以匿名或实名模式作答（允许跳题提交）；教师在 Results 页用 AI Summary 读整体模式，并以 Instructor Response 回应学生；关键反馈转成非评估数据供 Student Atlas 使用。（来源：Linear 项目描述，2026-09-09 读取）
+- Linear 项目：[Survey 1.0](https://linear.app/kira-learning/project/survey-10-bd3fef51c0f7/overview)（initiative Survey · lead Xiaoyue · 设计团队 APAC - Design · 状态 In Progress，起止 2026-06-23 → 2026-09-07；七个里程碑中 Product / Design / Design Review / Implementation / Release 已 100%，Testing 99%、Design QA & Polish 98%）。
+- PRD：[Survey Prototype & PRD](https://www.notion.so/kira-learning/PRD-Survey-35770a1b99248014a787c4111ada90bc)（Notion，来自 Linear 项目资源）；其余配套文档与锚点表见 `需求文档/00_PRD溯源.md`。
 
 ## 2. 任务路由表
 

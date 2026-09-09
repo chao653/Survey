@@ -12,13 +12,21 @@ alwaysApply: true
 
 | 英文术语 | 中文解释 | 备注 |
 | --- | --- | --- |
-| Survey | 待填 | 待填 |
-| 待填 | 待填 | 待填 |
+| Survey | Kira 的课程问卷功能（本项目主体）；Linear 项目名为 Survey 1.0 | 来源：Linear 项目描述 |
+| Kira AI | 产品内 AI：补问缺失信息、生成问卷草稿 | 来源：Linear 项目描述 |
+| Starter / Template | 建问卷的起点：建议的 starter、模板，或 prompt / 空白 | 来源：Linear 项目描述 |
+| Anonymous / Identified mode | 学生作答的两种隐私模式：匿名 / 实名 | 来源：Linear 项目描述 |
+| Skip-and-submit | 学生可跳过题目直接提交 | 来源：Linear 项目描述 |
+| Results page | 教师查看结果的页面 | 来源：Linear 项目描述 |
+| AI Summary | Results 页的 AI 总结，帮教师读整体模式 | 来源：Linear 项目描述 |
+| Instructor Response | 教师对学生反馈的回应，用于闭环 | 来源：Linear 项目描述 |
+| Student Atlas | Kira 的学生数据产品；Survey 的关键反馈作为非评估数据供其使用 | 来源：Linear 项目描述 |
+| 待填 | 待填 | 随 PRD 增补；以上中文解释待对照 PRD 正文核准 |
 
 ## 产品范围边界
 
-- 做什么：待填。
-- 不做什么：待填。
+- 做什么：Survey 从创建（prompt / starter / 模板 / 空白 + AI 草稿）→ 审阅与指派（班级 / 个别学生）→ 学生作答（匿名 / 实名，允许跳题提交）→ Results（AI Summary + Instructor Response）→ 反馈转非评估数据给 Student Atlas 的全流程设计。
+- 不做什么：待填（PRD 的 out-of-scope 章节到位后补）。
 
 ## 测试站与视口
 
